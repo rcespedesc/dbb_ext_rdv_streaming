@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kafka-spark-ingestion
+Version: 1.0.0
+Summary: Reusable Spark pipeline component for ingesting data from Kafka Confluent topics
+Author: Data Engineering Team
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: pyspark>=3.5.0
+Requires-Dist: confluent-kafka>=2.3.0
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: avro-python3>=1.10.0
+Requires-Dist: requests>=2.31.0
